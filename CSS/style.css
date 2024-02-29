@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    height: 750px;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center 60%;
+    background-repeat:no-repeat;
+}
+.page{
+    padding: 200px;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+.button{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+.page1 h6{
+    margin-bottom: 3rem !important;
+}
+.page1 h1{
+    margin-bottom: 0.25rem !important;
+    font-size: 90px;
+}
+.page1 h6{
+    font-style: italic;
+}
+
+
+
+.section2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: aqua;
+
+    
+}
+.page2{
+    padding: 300px;
+    margin: 0;
+    text-align: center; 
+}
+.page2 h2{
+    font-size: 1,5rem;
+    margin-top: 0;
+    text-align: center !important;
+    
+
+}
+.page2 p{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.button2{
+    cursor: pointer;
+}
+
+.button3{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.section3{
+    background-color: rgb(29 128 159);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.page3 p{
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}

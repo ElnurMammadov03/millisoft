@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scrollbar-width: smooth;
+}
+
+header {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+    height: 750px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.menu {
+    background-color: rgba(52, 58, 64, 0.5);
+    padding: 20px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-text {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.btn-blue {
+    background-color: #1d809f;
+}
+
+.btn-dark {
+    background-color: #212529;
+}
+
+.text2 {
+    text-align: center;
+}
+
+section {
+    padding: 70px 0;
+}
+
+#services {
+    background-color: rgba(29, 128, 159, 1);
+    width: 100%;
+    display: flex;
+
+}
+
+.text3 {
+    width: 100%;
+}
+
+.item-group {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.services2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(236 184 7);
+}
+
+.about2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #fff;
+}
+
+.item {
+    width: 20%;
+}
+
+.cricle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

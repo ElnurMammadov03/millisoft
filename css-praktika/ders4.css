@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+}
+div:nth-child(2){
+    background-color: brown;
+}
+div:nth-child(3){
+    background-color: blue;
+}
+div:nth-child(4){
+    background-color: green;
+}

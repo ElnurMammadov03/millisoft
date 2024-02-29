@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 600px;
+    width: 70%;
+    border: 2px solid red;
+    margin: 50px auto;
+    position: relative;
+}
+.main div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:yellow ;
+}
+.main div:first-child{
+    
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.main div:nth-child(2){
+    background-color: blue;
+}
+.main div:nth-child(3){
+    background-color:brown;
+}
+.main div:nth-child(4){
+    background-color: green;
+}
