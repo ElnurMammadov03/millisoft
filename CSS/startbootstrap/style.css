@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #212529;
+    display: flex;
+    /* position: fixed; */
+
+}
+.head1 {
+    width: 100%;
+    height: 700px;
+    
+
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+
+}
+header main{
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+}
+.logo{
+    width: 25%; 
+    height: 100px;  
+    text-align: center;
+    background-size: cover;
+    border: none;
+    text-decoration: none;
+    
+
+    
+}
+h1{
+    line-height: 100px;
+    color: gold;
+    font-family: "Alex Brush", cursive;
+    text-transform: capitalize;
+    position: fixed;
+    text-align: center;
+    padding-left: 100px;
+
+}
+nav{
+    width: 65%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    position: fixed;
+    
+    
+}
+.loading{
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    line-height: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.index{
+    color: gold;
+}
+.loading:hover{
+    color: gold;
+}
+.main{
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items:center;
+    /* position: relative; */
+}
+.main2{
+    /* text-align: center; */
+    font-size: 40px;
+}
+.main3{
+    /* text-align: center; */
+    font-size: 70px;
+
+}
+.link{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    background-color: gold;
+    padding: 20px 60px;
+    border-radius: 5px;
+    top: 40px;
+}
+.link:hover{
+    background-color: goldenrod;
+
+}
+section{
+   background-color: lightgrey;
+}
+.item{
+    width: 100%;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.around {
+    width: 20%;
+    /* justify-content: center;
+    align-items: center; */
+}
+.inner {
+    text-align: center;
+    
+}
+.inner i{
+    text-align: center;
+}
+
+/* .around i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cricle{
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.about{
+    text-align: center;
+    opacity: 0.6;
+    padding-bottom: 30px;
+}
+section p{
+    text-align: center;
+    opacity: 0.6;
+}
+
+section h5{
+    font-size: 30px;
+}
+.box{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 0 25px;
+    
+}
+.boxing{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 50px auto;
+    
+}
+.boxing h4{
+    position: absolute;
+    padding-top: 50px;
+
+}
+.boxing p{
+    position: absolute;
+    padding-top: 80px;
+
+}
+
+.sizing{
+    width: 30%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:o 20px;
+    /* position: relative; */
+    /* position: absolute; */
+    /* top: 100px; */
+
+}
+.sizing img{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    margin: 10px;
+
+
+}
+.services2{
+    text-align: center;
+    font-size: 40px;
+}
+.about2{
+    text-align: center;
+    opacity: 0.6;
+}

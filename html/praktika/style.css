@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%; 
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.box{
+   height:1000px ;
+    width: 85%;
+    margin: auto;
+}
+.item{
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    border: 5px solid rgb(168, 168, 168);
+
+    border-radius: 50%;
+
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.line{
+    width: 2px;
+    height: 180px;
+    background-color: brown;
+    margin: auto;
+    
+
+}
+
+.box div{
+    width: 29%;
+    height: 210px;
+    margin-bottom: 140px;
+    line-height: 30px;
+    text-align: right;
+    margin-left: 110px;
+   
+}
+
+.box div:nth-child(2n+2){
+  margin-left: 680px;
+  text-align: left;
+background-color: blueviolet;
+
+
+}
+
+.cut{
+    position: absolute;
+    top: 0;
+    left: 600px;
+    
+
+    
+}
+
